@@ -1,0 +1,16 @@
+[package]
+name = "screencapturekit"
+version.workspace = true
+license.workspace = true
+repository.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+description = "Safe wrapper for to Apple's ScreenCaptureKit"
+categories = [
+  "api-bindings",
+  "multimedia",
+  "multimedia::video",
+  "os::macos-apis",
+]
+
+[dependencies]
